@@ -1,0 +1,20 @@
+
+#nav:hover{
+    color: greenyellow;
+    background-color: green;
+}
+
+
+
+#nav{
+    color: black;
+    background-color:white ;
+}
+
+.navm{
+    width: 200px;
+    
+    
+    margin-top: 20px;
+}
+
