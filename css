@@ -1,19 +1,27 @@
-
-#nav:hover{
-    color: greenyellow;
-    background-color: green;
+#home{
+    background-color: black;
 }
-
-
-#nav{
-    color: black;
-    background-color:white ;
+.navbar .nav-link{
+    font-size: 13px;
+  text-transform: uppercase;
+  padding-right: 1px ;
+  padding-left: 1px;
 }
-
-.navm{
-    width: 200px;
-    
-    
-    margin-top: 20px;
+#home{
+    position: relative;
+    background: url(../images/Untitled.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
 }
+.navbar {
+    background: #000;
+  }
+#home .dark-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+  }
 
